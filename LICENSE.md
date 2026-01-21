@@ -1,11 +1,7 @@
 CMPUT 301 Student Submission License
 Version 2.0
 
-<<<<<<< HEAD
 Copyright 2026 `Kyumin Park`
-=======
-Copyright 2025 `Kyumin Park`
->>>>>>> bf4ba20 (Initial commit)
 
 Unauthorized redistribution is forbidden under all circumstances. Use of this
 software without explicit authorization from the author **and** the CMPUT 301
