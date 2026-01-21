@@ -6,13 +6,26 @@ Version information: first version
 Date: January 13rd, 2026
 Copyright: Kyumin Park
 -->
-
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/content_view"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="20dp"
-    android:text="sample_text"
-    android:textSize="40sp">
+    android:orientation="horizontal">
 
-</TextView>
+    <TextView
+        android:id="@+id/city_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="sample_text"
+        android:textSize="40sp"/>
+    <TextView
+        android:id= "@+id/province_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding = "20dp"
+        android:textSize="30sp"
+        android:text="Province" />
+</LinearLayout>
+
+
